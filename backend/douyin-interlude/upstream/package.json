@@ -1,0 +1,51 @@
+{
+  "name": "koishi-plugin-hds-interlude",
+  "version": "1.0.1-rc28",
+  "description": "A time-aware, persistent narrative chat framework for Koishi.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "prepack": "node scripts/ensure-fresh-bundle.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit --incremental false --composite false --noUnusedLocals --noUnusedParameters"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "koishi",
+    "chatbot",
+    "roleplay",
+    "narrative"
+  ],
+  "license": "AGPL-3.0",
+  "koishi": {
+    "service": {
+      "optional": [
+        "puppeteer"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.7",
+    "koishi-plugin-puppeteer": "^3.9.0"
+  },
+  "peerDependenciesMeta": {
+    "koishi-plugin-puppeteer": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "koishi-plugin-puppeteer": "^3.9.0"
+  },
+  "dependencies": {
+    "qface": "^1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitee.com/MomoiCore/HDS-Interlude.git"
+  },
+  "homepage": "https://gitee.com/MomoiCore/HDS-Interlude#readme",
+  "bugs": {
+    "url": "https://gitee.com/MomoiCore/HDS-Interlude/issues"
+  }
+}

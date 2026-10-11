@@ -1,0 +1,10 @@
+# 桌面壳
+PySide6==6.7.3
+httpx[socks]==0.28.1
+
+# panel 后端（backend/douyin-bot-panel/requirements.txt 同款）
+fastapi==0.141.1
+uvicorn==0.53.0
+
+# 机器人（backend/douyin-friend-ai-bot/requirements.txt 同款，见其文件）
+# playwright 及其它依赖安装：pip install -r backend/douyin-friend-ai-bot/requirements.txt
