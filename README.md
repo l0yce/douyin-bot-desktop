@@ -26,9 +26,9 @@
 
 ## 获取并打开程序
 
-从 [Windows 桌面预览版下载页](https://github.com/l0yce/douyin-bot-desktop/releases/tag/v2026.10.12-preview.1) 下载 `DouyinBot-Setup-2026.10.12.exe`（约 102 MB），运行安装包，从桌面或开始菜单打开“抖音 AI 好友助手”即可，无需另外安装 Python 和 Node.js。后续版本见 [Releases](https://github.com/l0yce/douyin-bot-desktop/releases)。
+从 [Windows 桌面预览版下载页](https://github.com/l0yce/douyin-bot-desktop/releases/tag/v2026.10.12-preview.1) 下载 `DouyinBot-Setup.exe`（约 102 MB），运行安装包，从桌面或开始菜单打开“抖音 AI 好友助手”即可，无需另外安装 Python 和 Node.js。后续版本见 [Releases](https://github.com/l0yce/douyin-bot-desktop/releases)。
 
-普通用户只需下载安装 EXE。`DouyinBot-Source-版本.zip` 是对应安装包的构建源码，供开发者参考；`SHA256SUMS.txt` 用于校验下载文件。GitHub 的 **Code → Download ZIP** 和自动生成的 **Source code** 压缩包都是源码，不能直接当作安装包运行。
+普通用户只需下载安装 EXE。`DouyinBot-Source.zip` 是对应安装包的构建源码，供开发者参考；`SHA256.txt` 用于校验下载文件。GitHub 的 **Code → Download ZIP** 和自动生成的 **Source code** 压缩包都是源码，不能直接当作安装包运行。
 
 当前发布为预览版，已完成本机安装、重复安装、程序启动和卸载验证，其他电脑与真实账号收发仍需自行验证。安装包尚未代码签名。
 
